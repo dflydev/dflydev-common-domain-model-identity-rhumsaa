@@ -1,0 +1,36 @@
+{
+    "name": "dflydev/common-domain-model-identity-rhumsaa",
+    "description": "Implementation of identity for domain models using rhumsaa/uuid.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Beau Simensen",
+            "email": "beau@dflydev.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "dflydev/common-domain-model-identity": "^0.0@dev",
+        "rhumsaa/uuid": "~2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dflydev\\Common\\Domain\\Model\\Identity\\Rhumsaa\\": "src/Dflydev/Common/Domain/Model/Identity/Rhumsaa"
+        }
+    },
+    "require-dev": {
+        "codeclimate/php-test-reporter": "~0.1@dev",
+        "phpunit/phpunit": "~4.5",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dflydev\\Common\\Domain\\Model\\Identity\\Rhumsaa\\": "tests/Dflydev/Common/Domain/Model/Identity/Rhumsaa"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    }
+}
